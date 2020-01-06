@@ -16,13 +16,31 @@ var ArticleSchema = new Schema({
     type: String,
     required: true
   },
+  //'saved' is required and of type boolean
+  saved:{
+    type:Boolean,
+    required:true,
+    default:false
+  },
+  ticker:{
+    type:String,
+    required:true
+  },
+  tickerLink:{
+    type:String,
+    required:true
+  },
+  tickerChange:{
+    type:String,
+    required:true
+  },
   // `note` is an object that stores a Note id
   // The ref property links the ObjectId to the Note model
   // This allows us to populate the Article with an associated Note
-  note: {
+  note: [{
     type: Schema.Types.ObjectId,
     ref: "Note"
-  }
+  }]
 });
 
 // This creates our model from the above schema, using mongoose's model method
