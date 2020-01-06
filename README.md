@@ -12,8 +12,26 @@ This is a web app that lets users view and write notes on the latest stock marke
 
 (4)__Notes__: For each saved article user can writes notes by clicking 'Article Notes' button. These notes are saved in database collection called 'notes'.
 
+### Live Demo
+[https://marketnews-scraper.herokuapp.com/](https://marketnews-scraper.herokuapp.com/)
+
 ### Technologies Used
-* For Front-end : Bootstrap , handlebars template 
-* For back-end : Node , Express
+* For Front-end : Bootstrap framework, handlebars template 
+* For back-end : Node , Express, cheerio.js
 * For Database : MongoDB , mongoose.js for schema validation
+
+### Get Started
+(1) To install the app clone this repository.
+
+(2) Change directory to web_scraper
+
+(3) Install node dependancies using command `npm install`
+
+(4) Make sure your MongoDB server is running. 
+
+(5) Start the app server using command `node server.js'
+
+(6) If no environment variable $PORT is defined by default, the app will run at port=3000. 
+
+(7) Open your browser and access the app at _http://localhost:3000_
 
