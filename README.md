@@ -2,15 +2,15 @@
 ![](./public/assets/images/frontPage.PNG)
 
 ### Overview
-This is a web app that lets users view and write notes on the latest stock market news from Marketwatch.com.
+This is a web app that lets users view, save and delete articles and notes on the latest stock market news from [Marketwatch.com/markets](https://www.marketwatch.com/markets?mod=top_nav)
 
-(1) __Scrape__ : _Scrape New Articles_ button when clicked scrapes latest articles from https://www.marketwatch.com/ site and save the article details in MongoDB collection called 'articles'.
+(1) __Scrape__ : _Scrape New Articles_ button when clicked scrapes latest articles from www.marketwatch.com/markets site and save the article details in MongoDB collection called 'articles'.
 
 (2) __Clear__: _Clear_ button when clickrd removes all the articles loaded in the database.
 
 (3) __Saved Articles__: _Saved Articles_ link loads a page with a list of articles marked as 'Save' by the user. 
 
-(4)__Notes__: For each saved article user can writes notes by clicking 'Article Notes' button. These notes are saved in database collection called 'notes'.
+(4)__Notes__: For each saved article user can write notes by clicking 'Article Notes' button. These notes are saved in database collection called 'notes'.
 
 ### Live Demo
 [https://marketnews-scraper.herokuapp.com/](https://marketnews-scraper.herokuapp.com/)
@@ -18,7 +18,7 @@ This is a web app that lets users view and write notes on the latest stock marke
 ### Technologies Used
 * For Front-end : Bootstrap framework, handlebars template 
 * For back-end : Node , Express, cheerio.js
-  * npm packages used : express, express-handlebars , mongoose , cheerio, axios
+  * npm packages used : express, express-handlebars, mongoose, cheerio, axios
 * For Database : MongoDB , mongoose.js for schema validation
 
 ### Get Started
