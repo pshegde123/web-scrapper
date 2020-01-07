@@ -18,6 +18,7 @@ This is a web app that lets users view and write notes on the latest stock marke
 ### Technologies Used
 * For Front-end : Bootstrap framework, handlebars template 
 * For back-end : Node , Express, cheerio.js
+  * npm packages used : express, express-handlebars , mongoose , cheerio, axios
 * For Database : MongoDB , mongoose.js for schema validation
 
 ### Get Started
