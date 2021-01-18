@@ -24,15 +24,15 @@ var ArticleSchema = new Schema({
   },
   ticker:{
     type:String,
-    required:true
+    required:false
   },
   tickerLink:{
     type:String,
-    required:true
+    required:false
   },
   tickerChange:{
     type:String,
-    required:true
+    required:false
   },
   // `note` is an object that stores a Note id
   // The ref property links the ObjectId to the Note model
